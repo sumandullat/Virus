@@ -8,3 +8,4 @@
 - [pc-restart](PC_restart/)
 - [jquery_konami_code](jquery_konami_code/)
 - [motion_detector](motion_detector/)
+- [bullet_point_adder](bullet_point_adder/)
