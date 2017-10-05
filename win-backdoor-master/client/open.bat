@@ -1,0 +1,1 @@
+start explorer "c:\users\Public\data"
