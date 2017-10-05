@@ -1,0 +1,21 @@
+mport sys
+import requests as req
+import netifaces as ni
+
+
+def get_public():
+    r = req.get('https://ipinfo.io')
+    print(r.json()['ip'])
+
+def get_priv():
+    ip = ni.ifaddresses('eth0')[2][0]['addr']
+    print (ip)
+
+if __name__ == "__main__":
+    if (sys.argv[1] == "u"):
+        get_public()
+    elif (sys.argv[1] == "a"):
+        get_public()
+        get_priv()
+    else:
+        get_priv()
