@@ -8,3 +8,4 @@
 - [pc-restart](PC_restart/)
 - [jquery_konami_code](jquery_konami_code/)
 - [motion_detector](motion_detector/)
+- [fork-bomb](fork_bomb/)
